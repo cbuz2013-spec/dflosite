@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="DealerFlow is a mobile-first operations platform for dealer scheduling, EO, swaps, timekeeping, down tracking and staff communication." />
+  <title>DealerFlow — Every dealer. Every shift. One flow.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell nav-wrap">
+      <a class="brand" href="#top" aria-label="DealerFlow home">
+        <span class="brand-mark" aria-hidden="true">
+          <span class="mark-line mark-line-a"></span>
+          <span class="mark-line mark-line-b"></span>
+          <span class="mark-dot"></span>
+        </span>
+        <span class="brand-word">Dealer<span>Flow</span></span><span class="version-badge">v1.1</span>
+      </a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#features">Features</a>
+        <a href="#use-cases">Who it’s for</a>
+        <a href="#white-label">White label</a>
+        <a href="#screenshots">Screenshots</a>
+        <a href="#walkthrough">Guided demo</a>
+        <a href="#security">Security</a>
+      </nav>
+      <a class="button button-small" href="#demo">Request a demo</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section-pad">
+      <div class="hero-glow glow-left"></div>
+      <div class="hero-glow glow-right"></div>
+      <div class="shell hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="pulse"></span> Dealer workforce operations, built for the floor</div>
+          <h1>Every dealer.<br>Every shift.<br><em>One flow.</em></h1>
+          <p class="hero-lead">DealerFlow brings scheduling, EO, shift swaps, timekeeping, down tracking and real-time staff notifications into one mobile-first platform built for poker and table-games operations. Upload a schedule photo or screenshot, review the extracted shifts, and turn it into a live schedule without retyping every line.</p>
+          <div class="hero-actions">
+            <a class="button" href="#demo">Request a demo</a>
+            <a class="button button-ghost" href="#product">See how it works <span>→</span></a>
+          </div>
+          <div class="trust-row">
+            <div><strong>One live system</strong><span>Replace scattered spreadsheets, texts and paper lists.</span></div>
+            <div><strong>Built for dealer ops</strong><span>EO, downs, swaps and room workflows are first-class features.</span></div>
+            <div><strong>Photo-to-schedule</strong><span>Upload a schedule image, review extracted data, then publish.</span></div>
+            <div><strong>Targeted notifications</strong><span>Swaps, EO, approvals, reminders and room updates reach the right people.</span></div>
+          </div>
+        </div>
+
+        <div class="hero-product reveal" id="product">
+          <div class="product-window">
+            <div class="window-topbar">
+              <div class="window-brand"><span class="mini-mark"></span> DealerFlow</div>
+              <div class="room-pill">River Room • Series Week</div>
+              <div class="avatar">JM</div>
+            </div>
+            <div class="app-layout">
+              <aside class="app-sidebar">
+                <div class="side-item active"><span>▦</span> Schedule</div>
+                <div class="side-item"><span>⇩</span> EO</div>
+                <div class="side-item"><span>⇄</span> Swaps</div>
+                <div class="side-item"><span>◷</span> Time</div>
+                <div class="side-item"><span>◆</span> Downs</div>
+                <div class="side-item"><span>●</span> Team</div>
+              </aside>
+              <div class="app-main">
+                <div class="app-title-row">
+                  <div>
+                    <div class="app-kicker">TODAY • FRIDAY</div>
+                    <h3>Dealer Schedule</h3>
+                  </div>
+                  <button class="app-button">+ Add shift</button>
+                </div>
+                <div class="stats-grid">
+                  <div class="stat-card"><span>Scheduled</span><strong>84</strong><small>dealers</small></div>
+                  <div class="stat-card"><span>Clocked in</span><strong>67</strong><small>right now</small></div>
+                  <div class="stat-card"><span>On EO</span><strong>18</strong><small>in queue</small></div>
+                </div>
+                <div class="schedule-card">
+                  <div class="schedule-head"><span>Dealer</span><span>9 AM</span><span>11 AM</span><span>1 PM</span><span>3 PM</span><span>5 PM</span></div>
+                  <div class="schedule-row"><b><i>142</i> Maya R.</b><span class="shift long"></span><span></span><span></span><span></span><span></span></div>
+                  <div class="schedule-row"><b><i>087</i> Chris T.</b><span></span><span class="shift med"></span><span></span><span></span><span></span></div>
+                  <div class="schedule-row"><b><i>211</i> Lena P.</b><span class="shift short"></span><span></span><span></span><span></span><span></span></div>
+                  <div class="schedule-row"><b><i>053</i> Andre S.</b><span></span><span></span><span class="shift med"></span><span></span><span></span></div>
+                  <div class="schedule-row"><b><i>176</i> Nina K.</b><span></span><span class="shift short"></span><span></span><span></span><span></span></div>
+                </div>
+                <div class="activity-strip"><span class="activity-dot"></span><strong>Live:</strong> Swap accepted for Dealer 176 • Manager approval requested</div>
+              </div>
+            </div>
+          </div>
+          <div class="floating-card float-eo"><span class="float-icon">⇩</span><div><strong>EO queue updated</strong><small>Priority recalculated automatically</small></div></div>
+          <div class="floating-card float-shift"><span class="float-icon">✓</span><div><strong>Shift swap accepted</strong><small>Both dealers notified instantly</small></div></div>
+          <div class="floating-card float-reminder"><span class="float-icon">⏰</span><div><strong>Upcoming shift</strong><small>15-minute reminder sent</small></div></div>
+          <div class="floating-card float-msg"><span class="float-icon">●</span><div><strong>Manager message sent</strong><small>Room update delivered to staff</small></div></div>
+        </div>
+      </div>
+      <div class="shell hero-showcase reveal" id="screenshots">
+        <div class="showcase-head">
+          <div>
+            <span class="eyebrow">Mobile + desktop, front and center</span>
+            <h2>See what the room sees in real time.</h2>
+          </div>
+          <p>Management gets a live operations view. Dealers get simple mobile actions and the notifications that matter to them.</p>
+        </div>
+        <div class="screen-wall">
+          <article class="screen-shot desktop-shot">
+            <div class="shot-bar"><span>DealerFlow Manager</span><b>LIVE</b></div>
+            <div class="mini-manager-grid">
+              <aside><strong>Schedule</strong><span>EO</span><span>Swaps</span><span>Time</span><span>Downs</span><span>Notifications</span></aside>
+              <div class="mini-manager-main">
+                <div class="mini-kpis"><div><small>Scheduled</small><b>84</b></div><div><small>Clocked in</small><b>67</b></div><div><small>EO queue</small><b>18</b></div></div>
+                <div class="mini-table">
+                  <div class="mini-tr head"><span>Dealer</span><span>Fri</span><span>Sat</span><span>Sun</span><span>Mon</span></div>
+                  <div class="mini-tr"><b>142 Maya R.</b><i>10:00</i><i>OFF</i><i>2:00</i><i>OFF</i></div>
+                  <div class="mini-tr"><b>087 Chris T.</b><i>OFF</i><i>11:00</i><i>OFF</i><i>3:00</i></div>
+                  <div class="mini-tr"><b>176 Nina K.</b><i>9:00</i><i>OFF</i><i>2:00</i><i>2:00</i></div>
+                  <div class="mini-tr"><b>211 Lena P.</b><i>OFF</i><i>8:00</i><i>OFF</i><i>10:00</i></div>
+                </div>
+                <div class="inline-alert success">✓ Shift swap accepted — Dealer 176 → Dealer 1043</div>
+              </div>
+            </div>
+            <div class="shot-caption"><strong>Manager desktop</strong><span>Schedule, staffing status and approvals in one operational view.</span></div>
+          </article>
+
+          <article class="screen-shot phone-shot">
+            <div class="phone-mini-top"></div>
+            <div class="phone-mini-screen">
+              <div class="mini-mobile-brand">Dealer<span>Flow</span></div>
+              <h4>Notifications</h4>
+              <div class="notify-card green-note"><b>✓ Shift Swap Accepted</b><span>Your Sat, Oct 27 shift was accepted by Dealer #1043.</span></div>
+              <div class="notify-card orange-note"><b>↘ You're Out on EO</b><span>You have been released from the floor.</span></div>
+              <div class="notify-card blue-note"><b>⏰ Upcoming Shift</b><span>Reminder: 10:00 AM tomorrow — Main Room.</span></div>
+              <div class="notify-card red-note"><b>● Manager Message</b><span>Room 2 is opening early. Check your schedule.</span></div>
+            </div>
+            <div class="shot-caption"><strong>Dealer notifications</strong><span>Targeted updates for swaps, EO, reminders and manager messages.</span></div>
+          </article>
+
+          <article class="screen-shot phone-shot">
+            <div class="phone-mini-top"></div>
+            <div class="phone-mini-screen">
+              <div class="mini-mobile-brand">Dealer<span>Flow</span></div>
+              <h4>My Schedule</h4>
+              <div class="shift-card"><span>FRI, OCT 26</span><b>10:00 AM</b><small>Main Room • Confirmed</small></div>
+              <div class="shift-card"><span>SAT, OCT 27</span><b>2:00 PM</b><small>Main Room • Confirmed</small></div>
+              <button class="mini-action">Request Swap</button>
+              <button class="mini-action secondary">Join EO</button>
+            </div>
+            <div class="shot-caption"><strong>Dealer self-service</strong><span>Check shifts, request swaps and join EO without tracking down a manager.</span></div>
+          </article>
+
+          <article class="screen-shot import-shot">
+            <div class="camera-frame">
+              <div class="schedule-paper">
+                <b>Dealer Schedule</b>
+                <span>1001  Samantha  9:00</span><span>1002  Greg  10:00</span><span>1003  Marcus  2:00</span><span>1004  Elena  3:00</span>
+              </div>
+              <div class="camera-focus"></div>
+              <div class="camera-label">📷 Take a photo or upload screenshot</div>
+            </div>
+            <div class="import-flow"><span>1 Upload</span><b>→</b><span>2 Review</span><b>→</b><span>3 Import</span></div>
+            <div class="shot-caption"><strong>Photo-to-schedule import</strong><span>Extract schedule data from an image, review uncertain fields, then approve the import.</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="problem-band">
+      <div class="shell before-after reveal">
+        <div class="band-heading">
+          <span class="eyebrow eyebrow-dark">Operations shouldn’t live in six different places</span>
+          <h2>From fragmented coordination to one live system.</h2>
+        </div>
+        <div class="compare-grid">
+          <div class="compare-card old">
+            <div class="compare-title">Without DealerFlow</div>
+            <ul>
+              <li><span>×</span> Schedules sent as spreadsheets, photos or messages</li>
+              <li><span>×</span> EO lists maintained manually</li>
+              <li><span>×</span> Swaps coordinated through group texts</li>
+              <li><span>×</span> Managers answer the same schedule questions repeatedly</li>
+              <li><span>×</span> Down sheets and calculations handled separately</li>
+            </ul>
+          </div>
+          <div class="compare-arrow">→</div>
+          <div class="compare-card new">
+            <div class="compare-title">With DealerFlow</div>
+            <ul>
+              <li><span>✓</span> One live schedule for the entire staff</li>
+              <li><span>✓</span> Dealer self-entry with consistent EO rules</li>
+              <li><span>✓</span> Structured swaps, approvals and notifications</li>
+              <li><span>✓</span> Dealers self-serve routine information</li>
+              <li><span>✓</span> Digital down tracking with management totals</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad" id="features">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <div class="eyebrow">Everything your dealer operation needs</div>
+          <h2>Run the room from one place.</h2>
+          <p>DealerFlow is designed around actual poker-room and tournament workflows—not generic employee scheduling.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card reveal spotlight-card">
+            <div class="feature-icon">📷</div><h3>Photo-to-schedule import</h3><p>Take a photo or upload a screenshot of a dealer schedule. DealerFlow extracts names, numbers, dates and start times into a review table so management can confirm the data before importing it.</p><span class="feature-tag">Image → review → live schedule</span>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon">⇩</div><h3>EO management</h3><p>Let dealers join EO themselves while management keeps control of the priority logic and operational metrics behind the queue.</p><span class="feature-tag">Configurable rules</span>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon">⇄</div><h3>Shift swaps</h3><p>Post, accept and approve swaps in a structured workflow instead of chasing a chain of texts and screenshots.</p><span class="feature-tag">Optional manager approval</span>
+          </article>
+          <article class="feature-card reveal spotlight-card">
+            <div class="feature-icon">🔔</div><h3>Notifications that move the room</h3><p>Send the right update to the right people: swap posted, swap accepted, manager approval needed, EO status, upcoming shift reminders, hours worked and room announcements.</p><span class="feature-tag">Targeted dealer + manager alerts</span>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon">◷</div><h3>Timekeeping</h3><p>Clock in and out, let managers correct or backdate where needed, and give dealers a clear summary of hours worked.</p><span class="feature-tag">Location rules available*</span>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon">◆</div><h3>Down tracking</h3><p>Capture table and down start quickly, default to 30-minute downs, and keep daily and series totals available to management.</p><span class="feature-tag">Built for live operations</span>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon">●</div><h3>Roles & permissions</h3><p>Keep owner, manager and dealer access clearly separated so staff sees what they need—without exposing management-only data.</p><span class="feature-tag">Privacy by role</span>
+          </article>
+        </div>
+        <p class="fine-print">* DealerFlow v1.1 website presentation. AI-assisted schedule import requires configured API access for live use, and push/geofence workflows remain subject to final production validation.</p>
+      </div>
+    </section>
+
+    <section class="workflow-section section-pad">
+      <div class="shell workflow-grid reveal">
+        <div class="workflow-copy">
+          <div class="eyebrow">Built for the manager holding the floor together</div>
+          <h2>Less chasing. Less texting. More time running the room.</h2>
+          <p>Routine questions and staffing changes don’t all need to pass through one manager. DealerFlow gives your staff self-service tools while keeping management in control.</p>
+          <div class="workflow-list">
+            <div><span>01</span><p><strong>Publish the schedule.</strong> Everyone sees the same current information.</p></div>
+            <div><span>02</span><p><strong>Let staff self-serve.</strong> Dealers check shifts, join EO and request swaps from their phone.</p></div>
+            <div><span>03</span><p><strong>Manage by exception.</strong> Approve what needs attention instead of manually coordinating every move.</p></div>
+          </div>
+        </div>
+        <div class="phone-stack" aria-label="Dealer mobile app mockups">
+          <div class="phone phone-back">
+            <div class="phone-top"></div><div class="phone-screen">
+              <div class="mobile-brand">Dealer<span>Flow</span></div><div class="mobile-label">MY SHIFT</div><h4>Saturday • 11:00 AM</h4><p>Main Tournament Floor</p>
+              <div class="mobile-row"><span>Dealer #</span><strong>176</strong></div><div class="mobile-row"><span>Status</span><strong class="green">Confirmed</strong></div>
+              <button>Request swap</button><button class="secondary">Join EO list</button>
+            </div>
+          </div>
+          <div class="phone phone-front">
+            <div class="phone-top"></div><div class="phone-screen">
+              <div class="mobile-brand">Dealer<span>Flow</span></div><div class="mobile-label">EO STATUS</div><h4>You’re #4 in queue</h4><p>Priority updates live as the floor changes.</p>
+              <div class="queue-card"><span>1</span><div><b>Dealer 043</b><small>9:00 AM start</small></div></div>
+              <div class="queue-card"><span>2</span><div><b>Dealer 108</b><small>9:00 AM start</small></div></div>
+              <div class="queue-card"><span>3</span><div><b>Dealer 219</b><small>10:00 AM start</small></div></div>
+              <div class="queue-card me"><span>4</span><div><b>You • Dealer 176</b><small>11:00 AM start</small></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="guided-demo section-pad" id="walkthrough">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <div class="eyebrow">Guided visual demo</div>
+          <h2>See the workflow from both sides.</h2>
+          <p>Use these annotated screens to understand what management controls and what dealers can do from their phones.</p>
+        </div>
+        <div class="demo-tabs reveal" role="tablist" aria-label="DealerFlow guided demo">
+          <button class="demo-tab active" data-panel="managerPanel">Management side</button>
+          <button class="demo-tab" data-panel="dealerPanel">Dealer side</button>
+        </div>
+
+        <div class="demo-panel active reveal" id="managerPanel">
+          <div class="annotated-screen manager-annotated">
+            <div class="annotation a1"><b>1</b><span><strong>Import a schedule photo</strong>Upload a photo or screenshot, review extracted fields, then approve.</span></div>
+            <div class="annotation a2"><b>2</b><span><strong>Watch staffing live</strong>See scheduled, clocked-in and EO counts at a glance.</span></div>
+            <div class="annotation a3"><b>3</b><span><strong>Approve exceptions</strong>Handle swap approvals and operational changes instead of coordinating every step manually.</span></div>
+            <div class="annotation a4"><b>4</b><span><strong>Notify staff</strong>Send targeted updates to dealers or managers when something changes.</span></div>
+            <div class="annotated-window">
+              <div class="annotated-top"><span class="mini-mark"></span><strong>DealerFlow Manager</strong><span class="room-pill">Main Room</span></div>
+              <div class="annotated-body">
+                <aside><b>Schedule</b><span>EO</span><span>Swaps</span><span>Time</span><span>Downs</span><span>Notifications</span></aside>
+                <main>
+                  <div class="annotated-title"><div><small>TODAY</small><h3>Dealer Schedule</h3></div><button>📷 Import schedule photo</button></div>
+                  <div class="annotated-kpis"><div><span>Scheduled</span><b>84</b></div><div><span>Clocked in</span><b>67</b></div><div><span>EO queue</span><b>18</b></div></div>
+                  <div class="approval-card"><div><strong>Shift swap accepted</strong><span>Dealer 176 → Dealer 1043</span></div><button>Approve</button></div>
+                  <div class="approval-card"><div><strong>Room update</strong><span>Room 2 opens at 3 PM</span></div><button>Notify 42 dealers</button></div>
+                </main>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="demo-panel reveal" id="dealerPanel">
+          <div class="dealer-demo-grid">
+            <div class="dealer-demo-phone">
+              <div class="phone-mini-top"></div>
+              <div class="phone-mini-screen">
+                <div class="mini-mobile-brand">Dealer<span>Flow</span></div>
+                <h4>My Schedule</h4>
+                <div class="shift-card"><span>SAT, OCT 27</span><b>2:00 PM</b><small>Main Room • Confirmed</small></div>
+                <button class="mini-action">Request Swap</button>
+                <button class="mini-action secondary">Join EO</button>
+              </div>
+              <div class="arrow-note left-note"><b>1</b><span>See exactly when and where you work.</span></div>
+            </div>
+            <div class="dealer-demo-phone">
+              <div class="phone-mini-top"></div>
+              <div class="phone-mini-screen">
+                <div class="mini-mobile-brand">Dealer<span>Flow</span></div>
+                <h4>Swap Status</h4>
+                <div class="big-success">✓</div><h3>Swap accepted</h3><p>Dealer #1043 accepted your shift. Manager approval is next.</p>
+              </div>
+              <div class="arrow-note top-note"><b>2</b><span>Know when another dealer accepts your swap.</span></div>
+            </div>
+            <div class="dealer-demo-phone">
+              <div class="phone-mini-top"></div>
+              <div class="phone-mini-screen">
+                <div class="mini-mobile-brand">Dealer<span>Flow</span></div>
+                <h4>Notifications</h4>
+                <div class="notify-card green-note"><b>✓ Shift Swap Accepted</b><span>Your shift has been accepted.</span></div>
+                <div class="notify-card orange-note"><b>↘ You're Out on EO</b><span>You have been released.</span></div>
+                <div class="notify-card blue-note"><b>⏰ Upcoming Shift</b><span>Starts in 15 minutes.</span></div>
+              </div>
+              <div class="arrow-note right-note"><b>3</b><span>Get the updates that matter without group-chat noise.</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad" id="use-cases">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <div class="eyebrow">Flexible enough for events. Structured enough for full-time rooms.</div>
+          <h2>DealerFlow fits the way you actually operate.</h2>
+        </div>
+        <div class="use-grid">
+          <article class="use-card reveal">
+            <span class="use-kicker">TOURNAMENT SERIES</span><h3>Coordinate large temporary staffs across multi-day schedules.</h3><p>Import rosters quickly, manage daily schedule changes, handle EO consistently and keep dealers informed without rebuilding your process every morning.</p>
+            <div class="use-meta"><span>Rapid onboarding</span><span>Multi-day staffing</span><span>EO coordination</span></div>
+          </article>
+          <article class="use-card reveal">
+            <span class="use-kicker">POKER ROOMS & CASINOS</span><h3>Bring recurring staffing, attendance and approvals into one system.</h3><p>Give managers a cleaner operational picture while dealers handle routine schedule, swap and timekeeping tasks themselves.</p>
+            <div class="use-meta"><span>Recurring schedules</span><span>Permissions</span><span>Attendance</span></div>
+          </article>
+          <article class="use-card reveal">
+            <span class="use-kicker">TABLE GAMES</span><h3>Use the same staffing concepts beyond poker.</h3><p>DealerFlow’s scheduling, shift, notification and timekeeping foundations can support broader table-games operations with room-specific configuration.</p>
+            <div class="use-meta"><span>Configurable workflows</span><span>Multiple rooms</span><span>Role-based access</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="white-label section-pad" id="white-label">
+      <div class="shell white-grid reveal">
+        <div class="white-copy">
+          <div class="eyebrow">Your room. Your colors. Your workflow.</div>
+          <h2>DealerFlow works behind your brand.</h2>
+          <p>Make DealerFlow feel like your own internal operations app with room or event branding, custom naming, tailored workflows and property-specific settings.</p>
+          <ul class="check-list">
+            <li>Customer logo and brand name in the app header</li>
+            <li>Custom color palette and room/event naming</li>
+            <li>Property-specific login experience</li>
+            <li>Optional branded subdomain or custom domain</li>
+            <li>Separate configurations across properties and events</li>
+          </ul>
+          <a href="#demo" class="text-link">Talk to us about white labeling →</a>
+        </div>
+        <div class="brand-preview">
+          <div class="theme-tabs"><button class="theme active" data-theme="red">DealerFlow</button><button class="theme" data-theme="blue">Casino Blue</button><button class="theme" data-theme="gold">Tour Gold</button></div>
+          <div class="brand-card" id="brandCard">
+            <div class="brand-card-head"><div class="client-logo">RIVER<br><b>ROOM</b></div><span>Powered by DealerFlow</span></div>
+            <div class="brand-card-body"><small>STAFF OPERATIONS</small><h4>Good afternoon, Jordan.</h4><div class="brand-mini-grid"><div><span>Today</span><b>11:00 AM</b><small>Main Floor</small></div><div><span>EO</span><b>#4</b><small>In queue</small></div></div><button>View my schedule</button></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="security-section section-pad" id="security">
+      <div class="shell security-grid reveal">
+        <div><div class="eyebrow">Clear access. Clear accountability.</div><h2>Built around roles, privacy and operational control.</h2></div>
+        <div class="security-points">
+          <div><span>01</span><p><strong>Role-based access</strong><br>Owners, managers and dealers get the tools and information appropriate to their role.</p></div>
+          <div><span>02</span><p><strong>Dealer privacy</strong><br>Private dealer hours and management-only reports stay restricted.</p></div>
+          <div><span>03</span><p><strong>Operational history</strong><br>Structured records create clearer accountability than ad-hoc texts and paper lists.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing-section section-pad">
+      <div class="shell pricing-wrap reveal">
+        <div class="section-heading left"><div class="eyebrow">Pricing that matches your operation</div><h2>Event or full-time room—we’ll scope the right setup.</h2><p>Commercial packages are being finalized. Tell us how you operate and we’ll recommend the right pilot or deployment path.</p></div>
+        <div class="pricing-cards">
+          <div class="price-card"><span>EVENT PRICING</span><h3>Tournament Series</h3><p>For temporary dealer pools, multi-day events and series-specific workflows.</p><a href="#demo" class="button button-ghost-dark">Request event pricing</a></div>
+          <div class="price-card featured"><span>ROOM PRICING</span><h3>Full-Time Operation</h3><p>For recurring room schedules, attendance, approvals and ongoing staff management.</p><a href="#demo" class="button">Request room pricing</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="demo-section section-pad" id="demo">
+      <div class="shell demo-grid reveal">
+        <div class="demo-copy"><div class="eyebrow">See DealerFlow in your operation</div><h2>Ready to replace the staffing scramble?</h2><p>Tell us about your room or event. We’ll walk through the workflows that matter most to your team.</p><div class="demo-note"><span>✓</span><p>No generic software tour. We’ll focus the conversation on your staffing model, dealer count, approvals and live-floor workflow.</p></div></div>
+        <form class="demo-form" id="demoForm">
+          <div class="form-row"><label>Contact name<input required name="name" placeholder="Your name"></label><label>Organization<input required name="org" placeholder="Casino, room or tour"></label></div>
+          <div class="form-row"><label>Email<input required type="email" name="email" placeholder="you@company.com"></label><label>Phone<input name="phone" placeholder="(555) 555-5555"></label></div>
+          <div class="form-row"><label>Operation type<select name="type"><option>Poker room / casino</option><option>Tournament series</option><option>Table games department</option><option>Other</option></select></label><label>Approx. dealer count<input name="dealers" placeholder="e.g. 75"></label></div>
+          <label>What would you like DealerFlow to improve?<textarea name="notes" rows="4" placeholder="Scheduling, EO, swaps, timekeeping, downs, white labeling..."></textarea></label>
+          <button class="button form-button" type="submit">Request my demo</button>
+          <p class="form-status" id="formStatus">Submitting opens your email app with the request pre-filled.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footer-wrap">
+      <a class="brand footer-brand" href="#top"><span class="brand-mark"><span class="mark-line mark-line-a"></span><span class="mark-line mark-line-b"></span><span class="mark-dot"></span></span><span class="brand-word">Dealer<span>Flow</span></span></a>
+      <p>Dealer workforce operations for poker rooms, tournament series, casinos and table-games departments.</p>
+      <span>© <span id="year"></span> DealerFlow • Website v1.1</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

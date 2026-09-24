@@ -12,3 +12,4 @@ Static DealerFlow marketing website.
 
 ## Deploy
 Upload the folder to Vercel as a static site. No build command is required.
+deployed via vercel
